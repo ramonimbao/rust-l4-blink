@@ -17,6 +17,7 @@ features = ["stm32l4x6", "rt"]
 
 [dependencies.stm32l4xx-hal]
 version = "0.3"
+path = "../stm32l4xx-hal"
 features = ["stm32l4x6", "rt"]
 
 # Uncomment for the panic example.
